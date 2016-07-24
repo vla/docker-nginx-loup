@@ -91,7 +91,7 @@ zlib1g-dev \
 && export LUAJIT_LIB=/usr/local/lib \
 && export LUAJIT_INC=/usr/local/include/luajit-2.0 \
 && cd /usr/src/nginx-$NGINX_VERSION \
-&& patch -p0 < /usr/src/nginx_upstream_check_module-master/check_1.9.2+.patch \
+&& patch -p0 < /usr/src/nginx_upstream_check_module/check_1.9.2+.patch \
 && mkdir -p /var/log/nginx && mkdir -p /var/cache/nginx \
 && ./configure $CONFIG \
 && make && make install \
