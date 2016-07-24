@@ -49,7 +49,7 @@ ENV CONFIG "\
     --with-http_v2_module \
     --with-openssl=/usr/src/openssl-$OPENSSL_VERSION \
     --add-module=/usr/src/ngx_devel_kit-0.3.0 \
-    --add-module=/usr/src/nginx_upstream_check_module-master \
+    --add-module=/usr/src/nginx_upstream_check_module \
     --add-module=/usr/src/lua-nginx-module-$LUA_MODULE_VERSION \
     --add-module=/usr/src/ngx_cache_purge-2.3 \
 	"
