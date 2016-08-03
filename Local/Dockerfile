@@ -4,7 +4,7 @@ MAINTAINER JohnWu "v.la@live.cn"
 
 #runtime dependencies
 RUN \
-apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 \
+apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 1ABFE185 \
 && apt-get update \
 && apt-get install --no-install-recommends --no-install-suggests -y \
 libpcre++0 zlib1g
