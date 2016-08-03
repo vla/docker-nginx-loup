@@ -4,7 +4,7 @@
 
 # About this Repo
 
-nginx-1.10.1源码并静态编译openssl-1.0.2h，集成LuaJIT-2.0.4、lua-nginx-module-0.10.1、nginx_upstream_check_module、ngx_cache_purge-2.3、ngx_devel_kit-0.3.0。
+nginx-1.10.1集成openssl-1.0.2h静态编译，集成LuaJIT-2.0.4、lua-nginx-module-0.10.1、nginx_upstream_check_module、ngx_cache_purge-2.3、ngx_devel_kit-0.3.0。
 
 # Usage
 
